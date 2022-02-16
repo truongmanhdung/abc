@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <!-- https://cdnjs.com/libraries/twitter-bootstrap/5.0.0-beta1 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css"
+    />
+
+    <!-- Icons: https://getbootstrap.com/docs/5.0/extend/icons/ -->
+    <!-- https://cdnjs.com/libraries/font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light my-0">
+        <div class="container">
+          <img
+            src="https://thptlexoay.vinhphuc.edu.vn/App_Themes/Default/Image/Logo2.png"
+            alt=""
+          />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-lg-0 ms-5">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >XEM CÔNG VĂN</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >TRA CỨU ĐIỂM</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >HỌC TRỰC TUYẾN</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >XEM CAMERA</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">SMAS</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="banner" style="background-color: #b4e6fc">
+      <img
+        class="w-100 mx-auto d-block"
+        height="300"
+        style="object-fit: cover; max-height: 149px; max-width: 1024px"
+        src="https://fn.vinhphuc.edu.vn/UploadImages/Config/thptlexoay/lexoay.jpg"
+        alt=""
+      />
+    </div>
+    <div class="menu">
+      <div class="container d-flex align-items-center">
+        <div class="menu">
+          <ul
+            class="menu-list d-flex justify-content-evenly alignsalign-items-center m-0 p-0"
+          >
+            <li class="menu-list-item d-block py-2 active-chon">
+              <a
+                href="index.html"
+                class="menu-link text-decoration-none text-white"
+              >
+                <i class="fa-solid fa-house text-white"></i
+              ></a>
+            </li>
+            <li class="menu-list-item d-block py-2">
+              <a
+                href="./gioithieu.html"
+                class="menu-link text-decoration-none text-white"
+                >GIỚI THIỆU</a
+              >
+            </li>
+            <li class="menu-list-item d-block py-2">
+              <a
+                href="tracuu.html"
+                class="menu-link text-decoration-none text-white"
+                >TRA CỨU ĐIỂM THI</a
+              >
+            </li>
+            <li class="menu-list-item d-block py-2">
+              <a
+                href="./tintuc.html"
+                class="menu-link text-decoration-none text-white"
+                >TIN TUC</a
+              >
+            </li>
+            <li class="menu-list-item d-block py-2">
+              <a
+                href="./tainguyen.html"
+                class="menu-link text-decoration-none text-white"
+                >TÀI NGUYÊN</a
+              >
+            </li>
+            <li class="menu-list-item d-block py-2">
+              <a
+                href="./thongbao-vanban.html"
+                class="menu-link text-decoration-none text-white"
+                >THÔNG BÁO - VĂN BẢN</a
+              >
+            </li>
+            <li class="menu-list-item d-block py-2">
+              <a
+                href="gochuongnghiep.html"
+                class="menu-link text-decoration-none text-white"
+                >GÓC HƯỚNG NGHIỆP</a
+              >
+            </li>
+            <li class="menu-list-item d-block py-2">
+              <a href="lienhe" class="menu-link text-decoration-none text-white"
+                >LIÊN HỆ</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="content container">
+      <div class="row">
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                <p
+                  style="
+                    border-bottom: 2px solid red;
+                    color: red;
+                    padding: 10px 0;
+                    font-size: 18px;
+                    font-weight: bold;
+                  "
+                >
+                  TRA CỨU ĐIỂM THI
+                </p>
+                <div class="mt-2">
+                  <input
+                    type="text"
+                    placeholder="Nhập từ khóa tìm kiếm"
+                    class="form-control"
+                  />
+                </div>
+         
+              </div>
+        </div>
+
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 mt-3">
+          <div class="div">
+            <p class="header-right">Sáng kiến kinh nghiệm</p>
+            <div class="display-flex">
+              <img
+                src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/kienlx/a.jpg?w=140"
+                alt=""
+              />
+              <p>Phương pháp giải bài tập vật lý hạt nhân</p>
+            </div>
+            <div class="display-flex">
+              <img
+                src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/kienlx/a.jpg?w=140"
+                alt=""
+              />
+              <p>Sóng dừng</p>
+            </div>
+            <div class="display-flex">
+              <img
+                src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/kienlx/a.jpg?w=140"
+                alt=""
+              />
+              <p>Phương pháp giải bài tập vật lý hạt nhân</p>
+            </div>
+            <div class="display-flex">
+              <img
+                src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/kienlx/a.jpg?w=140"
+                alt=""
+              />
+              <p>Phân loại 1 số công việc</p>
+            </div>
+          </div>
+          <div class="div">
+            <p class="header-right">Phần mềm</p>
+            <div class="display-flex">
+              <img
+                src="https://fn.vinhphuc.edu.vn//UploadImages/Advertising/hungyen/Thu%20dien%20tu.png"
+                alt=""
+              />
+              
+            </div>
+            <div class="display-flex">
+              <img
+                src="https://thptlexoay.vinhphuc.edu.vn/App_Themes/Default/Image/Bannerthuviendientu.jpg"
+                alt=""
+              />
+             
+            </div>
+            <div class="display-flex">
+              <img
+                src="https://fn.vinhphuc.edu.vn/UploadImages/Advertising/gdbn/eschool.png"
+                alt=""
+              />
+            
+            </div>
+          </div>
+          <div class="div">
+            <p class="header-right">TIN VIDEO</p>
+            <video
+              poster="/App_Themes/Default/Image/video_01.png"
+              width="100%"
+              height="60%"
+              src="https://fn.vinhphuc.edu.vn/media\thptlexoay/2018_2/le_xoay_282201810.mp4"
+              controls=""
+            ></video>
+          </div>
+          <div class="div">
+            <p class="header-right">BẢN ĐỒ VỊ TRÍ</p>
+            <img width="100%" alt="" src="https://thptlexoay.vinhphuc.edu.vn/App_Themes/Default/Image/maps.png">
+          </div>
+        </div>
+      </div>
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item active"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <footer>
+      <div class="menu">
+        <div class="container d-flex align-items-center">
+          <div class="menu">
+            <ul
+              class="menu-list d-flex justify-content-evenly alignsalign-items-center m-0 p-0"
+            >
+              <li class="menu-list-item d-block py-2 active-chon">
+                <a
+                  href="index.html"
+                  class="menu-link text-decoration-none text-white"
+                >
+                  <i class="fa-solid fa-house text-white"></i
+                ></a>
+              </li>
+              <li class="menu-list-item d-block py-2">
+                <a
+                  href="./gioithieu.html"
+                  class="menu-link text-decoration-none text-white"
+                  >GIỚI THIỆU</a
+                >
+              </li>
+              <li class="menu-list-item d-block py-2">
+                <a
+                  href="tracuu.html"
+                  class="menu-link text-decoration-none text-white"
+                  >TRA CỨU ĐIỂM THI</a
+                >
+              </li>
+              <li class="menu-list-item d-block py-2">
+                <a
+                  href="./tintuc.html"
+                  class="menu-link text-decoration-none text-white"
+                  >TIN TUC</a
+                >
+              </li>
+              <li class="menu-list-item d-block py-2">
+                <a
+                  href="./tainguyen.html"
+                  class="menu-link text-decoration-none text-white"
+                  >TÀI NGUYÊN</a
+                >
+              </li>
+              <li class="menu-list-item d-block py-2">
+                <a
+                  href="./thongbao-vanban.html"
+                  class="menu-link text-decoration-none text-white"
+                  >THÔNG BÁO - VĂN BẢN</a
+                >
+              </li>
+              <li class="menu-list-item d-block py-2">
+                <a
+                  href="gochuongnghiep.html"
+                  class="menu-link text-decoration-none text-white"
+                  >GÓC HƯỚNG NGHIỆP</a
+                >
+              </li>
+              <li class="menu-list-item d-block py-2">
+                <a
+                  href="lienhe"
+                  class="menu-link text-decoration-none text-white"
+                  >LIÊN HỆ</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-around">
+        <img
+          style="object-fit: cover"
+          src="https://fn.vinhphuc.edu.vn/UploadImages/Config/thptlexoay/logofooter.png"
+          alt=""
+        />
+        <div class="div border-start px-5">
+          <h5 style="color: #2980b9" class="text-center mt-3">
+            TRƯỜNG THPT LÊ XOAY
+          </h5>
+          <p style="color: #e74c3c" class="text-center">
+            Địa chỉ: Khu Hồ Xuân Hương, tt. Vĩnh Tường, Vĩnh Tường, Vĩnh Phúc
+          </p>
+          <p class="text-center">
+            Điện thoại: 0211 3839 489 - Email: c3lexoay@vinhphuc.edu.vn
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+    <script type="module">
+      import Swiper from "https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js";
+
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        },
+        breakpoints: {
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          // when window width is >= 480px
+          480: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+          // when window width is >= 640px
+          640: {
+            slidesPerView: 4,
+            spaceBetween: 10,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

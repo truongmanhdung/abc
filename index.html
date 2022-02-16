@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <!-- https://cdnjs.com/libraries/twitter-bootstrap/5.0.0-beta1 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css"
+    />
+
+    <!-- Icons: https://getbootstrap.com/docs/5.0/extend/icons/ -->
+    <!-- https://cdnjs.com/libraries/font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light my-0">
+        <div class="container">
+          <img
+            src="https://thptlexoay.vinhphuc.edu.vn/App_Themes/Default/Image/Logo2.png"
+            alt=""
+          />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-lg-0 ms-5">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >XEM CÔNG VĂN</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >TRA CỨU ĐIỂM</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >HỌC TRỰC TUYẾN</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >XEM CAMERA</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">SMAS</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="banner" style="background-color: #b4e6fc">
+      <img
+        class="w-100 mx-auto d-block"
+        height="300"
+        style="object-fit: cover; max-height: 149px; max-width: 1024px"
+        src="https://fn.vinhphuc.edu.vn/UploadImages/Config/thptlexoay/lexoay.jpg"
+        alt=""
+      />
+    </div>
+    <div class="menu">
+      <div class="container d-flex align-items-center">
+        <div class="menu">
+          <ul
+            class="menu-list d-flex justify-content-evenly alignsalign-items-center m-0 p-0"
+          >
+            <li class="menu-list-item d-block py-2 active-chon">
+              <a
+                href="index.html"
+                class="menu-link text-decoration-none text-white"
+              >
+                <i class="fa-solid fa-house text-white"></i
+              ></a>
+            </li>
+            <li class="menu-list-item d-block py-2">
+              <a
+                href="./gioithieu.html"
+                class="menu-link text-decoration-none text-white"
+                >GIỚI THIỆU</a
+              >
+            </li>
+            <li class="menu-list-item d-block py-2">
+              <a
+                href="tracuu.html"
+                class="menu-link text-decoration-none text-white"
+                >TRA CỨU ĐIỂM THI</a
+              >
+            </li>
+            <li class="menu-list-item d-block py-2">
+              <a
+                href="./tintuc.html"
+                class="menu-link text-decoration-none text-white"
+                >TIN TUC</a
+              >
+            </li>
+            <li class="menu-list-item d-block py-2">
+              <a
+                href="./tainguyen.html"
+                class="menu-link text-decoration-none text-white"
+                >TÀI NGUYÊN</a
+              >
+            </li>
+            <li class="menu-list-item d-block py-2">
+              <a
+                href="./thongbao-vanban.html"
+                class="menu-link text-decoration-none text-white"
+                >THÔNG BÁO - VĂN BẢN</a
+              >
+            </li>
+            <li class="menu-list-item d-block py-2">
+              <a
+                href="gochuongnghiep.html"
+                class="menu-link text-decoration-none text-white"
+                >GÓC HƯỚNG NGHIỆP</a
+              >
+            </li>
+            <li class="menu-list-item d-block py-2">
+              <a href="lienhe" class="menu-link text-decoration-none text-white"
+                >LIÊN HỆ</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="content container">
+      <div class="chu-chay my-2">
+        <div class="row">
+          <div
+            class="time-news col-xs-12 col-sm-4 col-md-3"
+            style="padding-right: 0; width: 22%"
+          >
+            <div class="f_left time-home-gio">
+              Thứ 4, 16/2/2022 05:12:39<span class="space-mar">|</span>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-8 col-md-9" style="padding-left: 0">
+            <marquee direction="left"
+              >Chào mừng đến với cổng thông tin điện tử THPT Lê Xoay</marquee
+            >
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <ol class="carousel-indicators">
+              <li
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+              ></li>
+              <li
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+              ></li>
+              <li
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+              ></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/kienlx/2021NewFolder/anh%201.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <p>
+                    Chiều ngày 23/10/2021, trường THPT Lê Xoay đã tổ chức thành
+                    công Hội nghị cán bộ, viên chức, người lao động năm học 2021
+                    – 2022.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/kienlx/2021NewFolder/1234543.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <p>
+                    TRƯỜNG THPT LÊ XOAY – KHAI GIẢNG NĂM HỌC MỚI TRANG TRỌNG, AN
+                    TOÀN TRONG MÙA DỊCH COVID
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/kienlx/12-fileminimizer.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <p>THÔNG BÁO LỊCH TỰU TRƯỜNG - NĂM HỌC 2021 - 2022</p>
+                </div>
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carouselExampleCaptions"
+              role="button"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselExampleCaptions"
+              role="button"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+          <div class="right-header">
+            <p class="act">MỚI NHẤT</p>
+            <p>ĐỌC NHIỀU</p>
+          </div>
+          <ul class="right-list m-0 p-0 pt-2">
+            <li class="mb-2" style="display: block">
+              <a href="" class="text-decoration-none"
+                ><img
+                  src="https://thptlexoay.vinhphuc.edu.vn/New/img/icontieude2.png"
+                  alt=""
+                />“xuân ấm tình thương” từ mái nhà lê xoay</a
+              >
+            </li>
+            <li class="mb-2" style="display: block">
+              <a href="" class="text-decoration-none"
+                ><img
+                  src="https://thptlexoay.vinhphuc.edu.vn/New/img/icontieude2.png"
+                  alt=""
+                />Ngọn lửa từ trái tim</a
+              >
+            </li>
+            <li class="mb-2" style="display: block">
+              <a href="" class="text-decoration-none"
+                ><img
+                  src="https://thptlexoay.vinhphuc.edu.vn/New/img/icontieude2.png"
+                  alt=""
+                />Trường thpt lê xoay tổ chức hội nghị cán bộ, viên chức, người
+                lao động năm học 2021 – 2022</a
+              >
+            </li>
+            <li class="mb-2" style="display: block">
+              <a href="" class="text-decoration-none"
+                ><img
+                  src="https://thptlexoay.vinhphuc.edu.vn/New/img/icontieude2.png"
+                  alt=""
+                />Trường thpt lê xoay – khai giảng năm học mới trang trọng, an
+                toàn trong mùa dịch covid</a
+              >
+            </li>
+
+            <li class="mb-2" style="display: block">
+              <a href="" class="text-decoration-none"
+                ><img
+                  src="https://thptlexoay.vinhphuc.edu.vn/New/img/icontieude2.png"
+                  alt=""
+                />THÔNG BÁO. Phát trực tiếp LỄ KHAI GIẢNG</a
+              >
+            </li>
+            <li class="mb-2" style="display: block">
+              <a href="" class="text-decoration-none"
+                ><img
+                  src="https://thptlexoay.vinhphuc.edu.vn/New/img/icontieude2.png"
+                  alt=""
+                />Thông báo lịch tựu trường - năm học 2021 - 2022</a
+              >
+            </li>
+            <li class="mb-2" style="display: block">
+              <a href="" class="text-decoration-none"
+                ><img
+                  src="https://thptlexoay.vinhphuc.edu.vn/New/img/icontieude2.png"
+                  alt=""
+                />Lịch tập trung khối 10 và danh sách xếp lớp khối 10 năm học
+                2021 - 2022</a
+              >
+            </li>
+            <li class="mb-2" style="display: block">
+              <a href="" class="text-decoration-none"
+                ><img
+                  src="https://thptlexoay.vinhphuc.edu.vn/New/img/icontieude2.png"
+                  alt=""
+                />Thông báo hoãn tập trung đối với học sinh lớp 10 năm học 2021
+                - 2022</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="card">
+                  <img
+                    src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/datlx/2eaeb871b5ee78b021ff.jpg?w=200"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      "Trường thpt lê xoay – khai giảng năm học mới
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <img
+                    src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/kienlx/12-fileminimizer.jpg?w=200"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      "Trường thpt lê xoay – khai giảng năm học mới
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <img
+                    src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/kienlx/2021NewFolder/1234543.jpg?w=200"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      "Trường thpt lê xoay – khai giảng năm học mới
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <img
+                    src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/datlx/Văn bản.jpg?w=200"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      "Trường thpt lê xoay – khai giảng năm học mới
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+
+          <div class="row mt-4">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+              <h3 class="text-red">GIỚI THIỆU</h3>
+              <div class="d-flex">
+                <div class="acx">
+                  <img
+                    src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/mathquang/4.jpg?w=250"
+                    alt=""
+                  />
+                  <h5>
+                    Cách đọc hiểu tác phẩm VHVN hiện đại từ 1945 - 1975 dưới
+                    dạng Thơ và văn xuôi
+                  </h5>
+                </div>
+                <div class="acx">
+                  <p>
+                    Vận dụng các phương pháp, kĩ thuật dạy học tích cực trong
+                    bài Chữ người tử tù - Nguyễn Tuân
+                  </p>
+                  <hr />
+                  <p>
+                    Vận dụng các phương pháp, kĩ thuật dạy học tích cực trong
+                    bài Chữ người tử tù - Nguyễn Tuân
+                  </p>
+                  <hr />
+                  <p>
+                    Dạy học bài "Phú Sông Bạch Đằng" của Trương Hán Siêu theo
+                    hướng tích hợp liên môn.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+              <h3 class="text-red">TRA CỨU ĐIỂM THI</h3>
+              <div class="d-flex">
+                <div class="acx">
+                  <img
+                    src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/kienlx/12-fileminimizer.jpg?w=250"
+                    alt=""
+                  />
+                  <h5>
+                    Hướng dẫn sử dụng microsoft teams
+                  </h5>
+                </div>
+                <div class="acx">
+                  <p>
+                    DẠY HỌC TRỰC TUYẾN BẰNG PHẦN MỀM ZOOM và TẠO BÀI KIỂM TRA TRỰC TUYẾN BẰNG GOOGLE FORM
+                  </p>
+                  <hr />
+                  <p>
+                    Thiết kế và tổ chức dạy học chủ đề STEM trong bài "Động lượng. Định luật bảo toàn động lượng" Vật lí 10 THPT
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+              <h3 class="text-red">TIN TỨC</h3>
+              <div class="d-flex">
+                <div class="acx">
+                  <img
+                    src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/datlx/2eaeb871b5ee78b021ff.jpg?w=250"
+                    alt=""
+                  />
+                  <h5>
+                    “xuân ấm tình thương” từ mái nhà lê xoay
+                  </h5>
+                </div>
+                <div class="acx">
+                  <p>
+                    Trường thpt lê xoay tổ chức hội nghị cán bộ, viên chức, người lao động năm học 2021 – 2022
+                  </p>
+                  <hr />
+                  <p>
+                    Trường thpt lê xoay – khai giảng năm học mới trang trọng, an toàn trong mùa dịch covid
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+              <h3 class="text-red">TÀI NGUYÊN</h3>
+              <div class="d-flex">
+                <div class="acx">
+                  <img
+                    src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/kienlx/12-fileminimizer.jpg?w=250"
+                    alt=""
+                  />
+                  <h5>
+                    Hướng dẫn sử dụng microsoft teams
+                  </h5>
+                </div>
+                <div class="acx">
+                  <p>
+                    DẠY HỌC TRỰC TUYẾN BẰNG PHẦN MỀM ZOOM và TẠO BÀI KIỂM TRA TRỰC TUYẾN BẰNG GOOGLE FORM
+                  </p>
+                  <hr />
+                  <p>
+                    Thiết kế và tổ chức dạy học chủ đề STEM trong bài "Động lượng. Định luật bảo toàn động lượng" Vật lí 10 THPT
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 color-ok">
+            <div class="div">
+                <p class="header-right">Sáng kiến kinh nghiệm</p>
+                <div class="display-flex">
+                    <img src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/kienlx/a.jpg?w=140" alt="">
+                    <p>Phương pháp giải bài tập vật lý hạt nhân</p>
+                </div>
+                <div class="display-flex">
+                    <img src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/kienlx/a.jpg?w=140" alt="">
+                    <p>Sóng dừng</p>
+                </div>
+                <div class="display-flex">
+                    <img src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/kienlx/a.jpg?w=140" alt="">
+                    <p>Phương pháp giải bài tập vật lý hạt nhân</p>
+                </div>
+                <div class="display-flex">
+                    <img src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/kienlx/a.jpg?w=140" alt="">
+                    <p>Phân loại 1 số công việc</p>
+                </div>
+            </div>
+            <div class="div">
+                <p class="header-right">Phần mềm</p>
+                <div class="display-flex">
+                    <img src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/kienlx/a.jpg?w=140" alt="">
+                    <p>Phần mềm thiết kế bài giảng E </p>
+                </div>
+                <div class="display-flex">
+                    <img src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/kienlx/a.jpg?w=140" alt="">
+                    <p>Sóng dừng</p>
+                </div>
+                <div class="display-flex">
+                    <img src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/kienlx/a.jpg?w=140" alt="">
+                    <p>Phần mềm thiết kế bài giảng E </p>
+                </div>
+                <div class="display-flex">
+                    <img src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/kienlx/a.jpg?w=140" alt="">
+                    <p>Phân loại 1 số công việc</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="menu">
+        <div class="container d-flex align-items-center">
+          <div class="menu">
+            <ul
+              class="menu-list d-flex justify-content-evenly alignsalign-items-center m-0 p-0"
+            >
+              <li class="menu-list-item d-block py-2 active-chon">
+                <a
+                  href="index.html"
+                  class="menu-link text-decoration-none text-white"
+                >
+                  <i class="fa-solid fa-house text-white"></i
+                ></a>
+              </li>
+              <li class="menu-list-item d-block py-2">
+                <a
+                  href="./gioithieu.html"
+                  class="menu-link text-decoration-none text-white"
+                  >GIỚI THIỆU</a
+                >
+              </li>
+              <li class="menu-list-item d-block py-2">
+                <a
+                  href="tracuu.html"
+                  class="menu-link text-decoration-none text-white"
+                  >TRA CỨU ĐIỂM THI</a
+                >
+              </li>
+              <li class="menu-list-item d-block py-2">
+                <a
+                  href="./tintuc.html"
+                  class="menu-link text-decoration-none text-white"
+                  >TIN TUC</a
+                >
+              </li>
+              <li class="menu-list-item d-block py-2">
+                <a
+                  href="./tainguyen.html"
+                  class="menu-link text-decoration-none text-white"
+                  >TÀI NGUYÊN</a
+                >
+              </li>
+              <li class="menu-list-item d-block py-2">
+                <a
+                  href="./thongbao-vanban.html"
+                  class="menu-link text-decoration-none text-white"
+                  >THÔNG BÁO - VĂN BẢN</a
+                >
+              </li>
+              <li class="menu-list-item d-block py-2">
+                <a
+                  href="gochuongnghiep.html"
+                  class="menu-link text-decoration-none text-white"
+                  >GÓC HƯỚNG NGHIỆP</a
+                >
+              </li>
+              <li class="menu-list-item d-block py-2">
+                <a
+                  href="lienhe"
+                  class="menu-link text-decoration-none text-white"
+                  >LIÊN HỆ</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-around">
+        <img
+          style="object-fit: cover"
+          src="https://fn.vinhphuc.edu.vn/UploadImages/Config/thptlexoay/logofooter.png"
+          alt=""
+        />
+        <div class="div border-start px-5">
+          <h5 style="color: #2980b9" class="text-center mt-3">
+            TRƯỜNG THPT LÊ XOAY
+          </h5>
+          <p style="color: #e74c3c" class="text-center">
+            Địa chỉ: Khu Hồ Xuân Hương, tt. Vĩnh Tường, Vĩnh Tường, Vĩnh Phúc
+          </p>
+          <p class="text-center">
+            Điện thoại: 0211 3839 489 - Email: c3lexoay@vinhphuc.edu.vn
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+    <script type="module">
+      import Swiper from "https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js";
+
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        },
+        breakpoints: {
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          // when window width is >= 480px
+          480: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+          // when window width is >= 640px
+          640: {
+            slidesPerView: 4,
+            spaceBetween: 10,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

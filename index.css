@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item{
+
+}
+.nav-link{
+    color: #881642 !important;
+    font-size: 14px;
+    border-right: 1px solid #881642;
+    padding: 0 10px;
+}
+.menu{
+    background-color: #881642;
+}
+
+.menu-list-item{
+    transition: background-color linear 0.35s;
+    width: 140px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menu-list-item:hover{
+    background-color: burlywood;
+}
+
+.menu-link{
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.chu-chay marquee {
+    line-height: 30px;
+    color: #881642;
+    font-size: 12px;
+    font-weight: bold;
+}
+.body-scrollview{
+    height: 400px;
+    overflow: auto;
+}
+
+.frame-new .panel-heading {
+    background: #881642;
+    border-bottom: none;
+    padding: 0;
+    position: relative;
+    height: 40px;
+}
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+.panel-heading {
+    background: #881642;
+    border-bottom: none;
+    padding: 0;
+    position: relative;
+    height: 40px;
+}
+.panel-title {
+    position: relative;
+    color: #881642;
+    font-weight: bold;
+    height: 35px;
+    margin-left: 10px;
+    line-height: 38px;
+    margin-top: 5px;
+    border-radius: 8px 8px 0 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: inline-block;
+    background: #fff url(http://thptnamtienhai.thaibinh.edu.vn/upload/18257/fck/loa.png) 10px center no-repeat;
+    padding: 0 20px;
+    padding-left: 40px;
+    vertical-align: bottom;
+}
+.panel-title {  
+    font-size: 16px;
+    color: inherit;
+}
+
+.panel-body {
+    padding: 10px;
+    border: 1px solid #881642;
+    border-top: 0;
+}
+
+.simply-scroll-list {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.vert .simply-scroll-list li {
+    width: 290px;
+    height: 200px;
+}
+.vert .simply-scroll-list li {
+    height: auto !important;
+    width: 100% !important;
+}
+.section-marquee-legalddocument .one-item {
+    margin-bottom: 15px;
+}
+.simply-scroll-list li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.section-marquee-legalddocument .one-item .post-title .title a {
+    color: #35810E;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.section-marquee-legalddocument .one-item .post-title .title a span{
+    color: #061d9c;
+    font-size: 14px;
+}
+
+.panel-body{
+    height: 400px;
+    overflow: auto;
+}
+
+.frame-article .panel-heading {
+    background-repeat: repeat-x;
+    background-color: transparent;
+    color: #186BCC;
+    padding: 0;
+    border-bottom: 1px solid #881642;
+}
+
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}
+
+.frame-article .panel-heading .panel-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: #881642;
+    padding: 0 15px;
+    line-height: 34px;
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+}
+
+.list-conetnt-item {
+    border-top: 1px dotted rgba(0, 0, 0, 0.1);
+}
+.item-123{
+    border: 1px solid #881642;
+    height: 300px;
+    padding: 10px;
+}
+
+.active-chon{
+    background-color: burlywood;
+}
+
+.right-header{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.right-header p{
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #d4c9db;
+    flex: 1;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+    transition: background-color linear 0.35s;
+    cursor: pointer;
+}
+
+.right-header .act{
+    color: red;
+    background-color: white;
+    border-bottom: 2px solid red;
+}
+
+.right-header p:nth-child(2):hover{
+    background-color: red;
+    color: white;
+}
+.acx{
+    margin-left: 10px;
+}
+
+.acx p{
+    font-size: 12px;
+}
+
+.acx h5{
+    font-size: 20px;
+}
+
+.text-red{
+    font-size: 16px;
+    font-weight: bold;
+    color: red;
+    padding: 10px 10px;
+    background-color: #d4c9db;
+}
+.header-right{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+
+}
+.display-flex{
+    display: flex;
+    margin-bottom: 10px;
+}
+.color-ok{
+    background-color: #ddd;
+}
+.display-flex p{
+    margin-left: 10px;
+}
+
+
+.s_categoryRight a,  .s_categoryLeft a {
+    text-decoration: none;
+    color: #e20001;
+    font-weight: bold;
+}
+
+.s_categoryLeft p,  .s_categoryRight p {
+    margin-bottom: 10px;
+}
