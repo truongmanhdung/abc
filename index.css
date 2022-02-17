@@ -254,3 +254,34 @@
 .s_categoryLeft p,  .s_categoryRight p {
     margin-bottom: 10px;
 }
+
+.japan{
+    border-bottom: 2px solid red;
+}
+.highlight{
+    display: grid;
+    grid-template-columns: 450px auto;
+    gap: 4px;
+    align-items: center;;
+    
+}
+.story-listening{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 14px;
+    padding-bottom: 20px;
+}
+.story{
+    display: grid;
+    grid-template-columns: 130px auto;
+    border-bottom: 2px solid #999;
+
+}
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.contact-line{
+    display: block;
+}

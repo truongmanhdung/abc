@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <!-- https://cdnjs.com/libraries/twitter-bootstrap/5.0.0-beta1 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css"
+    />
+
+    <!-- Icons: https://getbootstrap.com/docs/5.0/extend/icons/ -->
+    <!-- https://cdnjs.com/libraries/font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Hello, world!</title>
+  </head>
+  <div>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light my-0">
+        <div class="container">
+          <img
+            src="https://thptlexoay.vinhphuc.edu.vn/App_Themes/Default/Image/Logo2.png"
+            alt=""
+          />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-lg-0 ms-5">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >XEM CÔNG VĂN</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >TRA CỨU ĐIỂM</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >HỌC TRỰC TUYẾN</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >XEM CAMERA</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">SMAS</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="banner" style="background-color: #b4e6fc">
+      <img
+        class="w-100 mx-auto d-block"
+        height="300"
+        style="object-fit: cover; max-height: 149px; max-width: 1024px"
+        src="https://fn.vinhphuc.edu.vn/UploadImages/Config/thptlexoay/lexoay.jpg"
+        alt=""
+      />
+    </div>
+    <div class="menu">
+      <div class="container d-flex align-items-center">
+        <div class="menu">
+          <ul
+            class="menu-list d-flex justify-content-evenly alignsalign-items-center m-0 p-0"
+          >
+            <li class="menu-list-item d-block py-2 ">
+              <a
+                href="index.html"
+                class="menu-link text-decoration-none text-white"
+              >
+                <i class="fa-solid fa-house text-white"></i
+              ></a>
+            </li>
+            <li class="menu-list-item d-block py-2">
+              <a
+                href="./gioithieu.html"
+                class="menu-link text-decoration-none text-white"
+                >GIỚI THIỆU</a
+              >
+            </li>
+            <li class="menu-list-item d-block py-2">
+              <a
+                href="tracuu.html"
+                class="menu-link text-decoration-none text-white"
+                >TRA CỨU ĐIỂM THI</a
+              >
+            </li>
+            <li class="menu-list-item d-block py-2">
+              <a
+                href="./tintuc.html"
+                class="menu-link text-decoration-none text-white"
+                >TIN TUC</a
+              >
+            </li>
+            <li class="menu-list-item d-block py-2">
+              <a
+                href="./tainguyen.html"
+                class="menu-link text-decoration-none text-white"
+                >TÀI NGUYÊN</a
+              >
+            </li>
+            <li class="menu-list-item d-block py-2">
+              <a
+                href="./thongbao-vanban.html"
+                class="menu-link text-decoration-none text-white"
+                >THÔNG BÁO - VĂN BẢN</a
+              >
+            </li>
+            <li class="menu-list-item d-block py-2 active-chon">
+              <a
+                href="gochuongnghiep.html"
+                class="menu-link text-decoration-none text-white"
+                >GÓC HƯỚNG NGHIỆP</a
+              >
+            </li>
+            <li class="menu-list-item d-block py-2">
+              <a href="lienhe.html" class="menu-link text-decoration-none text-white"
+                >LIÊN HỆ</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="content container">
+      <div class="row">
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+          <p
+            style="
+              border-bottom: 2px solid red;
+              color: red;
+              padding: 10px 0;
+              font-size: 18px;
+              font-weight: bold;
+            "
+          >
+            GÓC HƯỚNG NGHIỆP
+          </p>
+          <div class="mt-2">
+            <input
+              type="text" placeholder="Nhập từ khóa để tìm kiếm cho chuyên mục"
+              class="form-control"
+            />
+          </div>
+          
+          <div class="japan">
+            <div class="highlight">
+                <div>
+                    <h1><a style=" 
+                            color: #3c3c3c;
+                            font-size: 16px;
+                            font-weight: bold;
+                            text-decoration: none;
+                        " href="">Chọn nghề năm 2019: Nên xóa bỏ định kiến nghề danh giá</a></h1>
+                </div>
+                <div style="padding-top: 10px;">
+                    <span style="font-size: 10px; color: #888888">16/2/2022</span>
+                </div>
+                </div>
+                <div style="display: grid;
+                    grid-template-columns: 300px auto;
+                    gap: 12px;
+                                ">
+                    <div>
+                        <img style="width: fit-content; width: 300px;" src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/mathquang/nganh_khxh_nhan_van_1.jpg?w=300" alt="">
+                    </div>
+                    <div>
+                        <p style="font-size: 14px; text-align: justify;">Ban hướng nghiệp giới thiệu đến các em học sinh nhà trường các chương trình du học, vừa học vừa làm tại Nhật Bản. Các em  nghiên cứu, đây là một chương trình rất hay và có nhiều thiết thực.</p>
+                
+                    </div>
+                </div>
+            </div>
+          <div class="story-listening">
+            <div class="story">
+                <div style="padding: 12px 8px; width: 150px;" class="img">
+                    <img src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/1351434679931_images.jpg?w=130" alt="">
+                </div>
+                <div style="padding-left: 12px; padding-top: 15px; padding-right: 12px;" class="abctitle">
+                    <a style="font-size: 14px; color: #333; text-decoration: none; font-weight: bold    ;" href="">Tuyển sinh 2020: Nhiều ngành mới và phương thức tuyển mới</a></h1>
+                    <div class="time">                    
+                        <span style="font-size: 11px">16/1/2020</span>
+                    </div>
+                    <p style="font-size: 14px;">Việc các trường ồ ạt mở ngành cũng dẫn đến những lo ngại việc có quá nhiều trường đua nhau mở ngành “hot” sẽ dẫn tới thị trường nhân lực bị bão hòa.</p>
+                </div>
+            </div>
+            <div class="story">
+                <div style="padding: 12px 8px; width: 150px;" class="img">
+                    <img src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/kienlx/1419232613225_nganhkhxhnhanvan1.jpg?w=130" alt="">
+                </div>
+                <div style="padding-left: 12px; padding-top: 15px; padding-right: 12px;" class="abctitle">
+                    <a style="font-size: 14px; color: #333; text-decoration: none; font-weight: bold    ;" href="">Danh sách trường công bố phương án tuyển sinh 2020</a></h1>
+                    <div class="time">                    
+                        <span style="font-size: 11px">16/1/2020</span>
+                    </div>
+                    <p style="font-size: 14px;">Phương án tuyển sinh năm 2020 của tất cả các trường đại học, cao đẳng trên cả nước được cập nhật những thông tin tuyển sinh mới nhất và liên tục giúp các em biết được thông tin chính xác khi chọn ngành nghề xét tuyển.
+                    </p>
+                </div>
+            </div>
+            <div class="story">
+                <div style="padding: 12px 8px; width: 150px;" class="img">
+                    <img src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/1351434679931_images.jpg?w=130" alt="">
+                </div>
+                <div style="padding-left: 12px; padding-top: 15px; padding-right: 12px;" class="abctitle">
+                    <a style="font-size: 14px; color: #333; text-decoration: none; font-weight: bold    ;" href="">TThí sinh nên chọn nghề gì trong thời cuộc 4.0?</a></h1>
+                    <div class="time">                    
+                        <span style="font-size: 11px">16/1/2020</span>
+                    </div>
+                    <p style="font-size: 14px;">Cuộc cách mạng công nghiệp 4.0 tác động mạnh đến việc làm của người lao động, không chỉ thay thế những công việc nặng nhọc mà cả những công việc đòi hỏi chuyên môn cao như luật sư, các nhà phân tích tài chính, bác sĩ, nhà báo, kế toán… cũng sẽ bị tự động hóa một phần.
+                    </p>
+                </div>
+            </div>
+            <div class="story">
+                <div style="padding: 12px 8px; width: 150px;" class="img">
+                    <img src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/kienlx/06031702.jpg?w=130" alt="">
+                </div>
+                <div style="padding-left: 12px; padding-top: 15px; padding-right: 12px;" class="abctitle">
+                    <a style="font-size: 14px; color: #333; text-decoration: none; font-weight: bold    ;" href="">Chọn nghề năm 2019: Nên xóa bỏ định kiến nghề danh giá</a></h1>
+                    <div class="time">                    
+                        <span style="font-size: 11px">16/1/2020</span>
+                    </div>
+                    <p style="font-size: 14px;">“Nghề danh giá là nghề đem lại giá trị cho xã hội, phát triển và đáp ứng nhu cầu của cá nhân, giữ được nhân cách con người tốt đẹp. Như vậy, không nên so sánh nghề này với nghề kia bởi nghề nào đáp ứng được những tiêu chí đó cũng đều danh giá”.
+                    </p>
+                </div>
+            </div>
+            <div class="story">
+                <div style="padding: 12px 8px; width: 150px;" class="img">
+                    <img src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/kienlx/t%E1%BA%A3i%20xu%E1%BB%91ng.png?w=130" alt="">
+                </div>
+                <div style="padding-left: 12px; padding-top: 15px; padding-right: 12px;" class="abctitle">
+                    <a style="font-size: 14px; color: #333; text-decoration: none; font-weight: bold;" href="">Danh sách các trường khu vực phía bắc công bố phương án tuyển sinh 2019</a></h1>
+                    <div class="time">                    
+                        <span style="font-size: 11px">16/1/2020</span>
+                    </div>
+                    <p style="font-size: 14px;">Danh sách các trường khu vực phía bắc công bố phương án tuyển sinh 2019
+                    </p>
+                </div>
+            </div>
+            <div class="story">
+                <div style="padding: 12px 8px; width: 150px;" class="img">
+                    <img src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/kienlx/T%C6%B0%20v%E1%BA%A5n%20tuy%E1%BB%83n%20sinh.jpg?w=130" alt="">
+                </div>
+                <div style="padding-left: 12px; padding-top: 15px; padding-right: 12px;" class="abctitle">
+                    <a style="font-size: 14px; color: #333; text-decoration: none; font-weight: bold    ;" href="">Ngày hội tư vấn tuyển sinh 2019</a></h1>
+                    <div class="time">                    
+                        <span style="font-size: 11px">16/1/2020</span>
+                    </div>
+                    <p style="font-size: 14px;">Ngày hội tư vấn tuyển sinh 2019
+                    </p>
+                </div>
+            </div>
+            <div class="story">
+                <div style="padding: 12px 8px; width: 150px;" class="img">
+                    <img src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/kienlx/photo-0-15451763610932136643242.jpg?w=130" alt="">
+                </div>
+                <div style="padding-left: 12px; padding-top: 15px; padding-right: 12px;" class="abctitle">
+                    <a style="font-size: 14px; color: #333; text-decoration: none; font-weight: bold    ;" href="">Ngày hội tư vấn tuyển sinh 2019</a></h1>
+                    <div class="time">                    
+                        <span style="font-size: 11px">16/1/2020</span>
+                    </div>
+                    <p style="font-size: 14px;">Danh sách các trường Đại học khu vực Miền Bắc từ Thanh Hóa trở ra. Ghi chú: Các trường Đại học có đánh dấu (*) là các trường ngoài công lập
+                    </p>
+                </div>
+            </div>
+            <div class="story">
+                <div style="padding: 12px 8px; width: 150px;" class="img">
+                    <img src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/kienlx/photo-0-15451763610932136643242.jpg?w=130" alt="">
+                </div>
+                <div style="padding-left: 12px; padding-top: 15px; padding-right: 12px;" class="abctitle">
+                    <a style="font-size: 14px; color: #333; text-decoration: none; font-weight: bold;" href="">Các trường Đại học & Học viện khu vực TP. Hà Nội</a></h1>
+                    <div class="time">                    
+                        <span style="font-size: 11px">16/1/2020</span>
+                    </div>
+                    <p style="font-size: 14px;">Các trường Đại học & Học viện khu vực TP. Hà Nội
+                    </p>
+                </div>
+            </div>
+            <div class="story">
+                <div style="padding: 12px 8px; width: 150px;" class="img">
+                    <img src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/kienlx/070118-2c.jpg?w=130" alt="">
+                </div>
+                <div style="padding-left: 12px; padding-top: 15px; padding-right: 12px;" class="abctitle">
+                    <a style="font-size: 14px; color: #333; text-decoration: none; font-weight: bold    ;" href="">Bộ GDĐT công bố dự thảo quy chế tuyển sinh 2019: Nhiều điểm mới</a></h1>
+                    <div class="time">                    
+                        <span style="font-size: 11px">16/1/2020</span>
+                    </div>
+                    <p style="font-size: 14px;">Ngành sư phạm, y khoa sẽ có điểm sàn riêng; thí sinh xác nhận nhập học thông qua việc nộp bản chính giấy chứng nhận kết quả thi vào một trường và không được tham gia xét tuyển ở các trường khác… là những điểm mới trong dự thảo Quy chế tuyển sinh 2019 vừa được Bộ Giáo dục và Đào tạo (GDĐT) công bố để lấy ý kiến.
+                    </p>
+                </div>
+            </div>
+            <div class="story">
+                <div style="padding: 12px 8px; width: 150px;" class="img">
+                    <img src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/kienlx/06031702.jpg?w=130" alt="">
+                </div>
+                <div style="padding-left: 12px; padding-top: 15px; padding-right: 12px;" class="abctitle">
+                    <a style="font-size: 14px; color: #333; text-decoration: none; font-weight: bold    ;" href="">Tuyển sinh ĐH, CĐ 2019: Sáng suốt trong lựa chọn ngành học</a></h1>
+                    <div class="time">                    
+                        <span style="font-size: 11px">16/1/2020</span>
+                    </div>
+                    <p style="font-size: 14px;">Để đáp ứng nhu cầu của thị trường lao động, nhiều trường đại học, cao đẳng và trung cấp (ĐH, CĐ, TC) trong mùa tuyển sinh năm nay sẽ mở thêm một số ngành học mới. Bài toán chọn ngành chọn nghề sẽ có thêm những cơ hội mới, thí sinh và gia đình cần bình tĩnh lựa chọn.
+                    </p>
+                </div>
+            </div>
+            <div class="story">
+                <div style="padding: 12px 8px; width: 150px;" class="img">
+                    <img src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/kienlx/06031702.jpg?w=130" alt="">
+                </div>
+                <div style="padding-left: 12px; padding-top: 15px; padding-right: 12px;" class="abctitle">
+                    <a style="font-size: 14px; color: #333; text-decoration: none; font-weight: bold    ;" href="">Giáo sư Hàn Quốc “mách” SV Việt cách chọn công việc yêu thích</a></h1>
+                    <div class="time">                    
+                        <span style="font-size: 11px">16/1/2020</span>
+                    </div>
+                    <p style="font-size: 14px;"></p>
+                </div>
+            </div>
+            <div class="story">
+                <div style="padding: 12px 8px; width: 150px;" class="img">
+                    <img src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/mathquang/ssssssssssssssssss.png?w=130" alt="">
+                </div>
+                <div style="padding-left: 12px; padding-top: 15px; padding-right: 12px;" class="abctitle">
+                    <a style="font-size: 14px; color: #333; text-decoration: none; font-weight: bold;" href="">Những ngành học yêu cầu ngoại hình</a></h1>
+                    <div class="time">                    
+                        <span style="font-size: 11px">16/1/2020</span>
+                    </div>
+                    <p style="font-size: 14px;">Thí sinh muốn thi vào một số ngành đặc thù trong khối nghệ thuật hoặc các trường công an, quân đội… đều phải đạt các tiêu chí về ngoại hình tùy vào từng trường và ngành học.
+                    </p>
+                </div>
+            </div>
+            <div class="story">
+                <div style="padding: 12px 8px; width: 150px;" class="img">
+                    <img src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/kienlx/hvcanhsatnhandan_pcoi.jpg?w=130" alt="">
+                </div>
+                <div style="padding-left: 12px; padding-top: 15px; padding-right: 12px;" class="abctitle">
+                    <a style="font-size: 14px; color: #333; text-decoration: none; font-weight: bold    ;" href="">Tuyển sinh trường công an năm 2019: Không hoàn toàn dùng kết quả thi THPT quốc gia</a></h1>
+                    <div class="time">                    
+                        <span style="font-size: 11px">16/1/2020</span>
+                    </div>
+                    <p style="font-size: 14px;">Cục Đào tạo (Bộ Công an) cho biết, năm 2019, về cơ bản, công tác tuyển sinh đại học, trung cấp hệ chính quy các trường công an nhân dân được thực hiện như năm 2018 về đối tượng, tiêu chuẩn, quy trình tổ chức sơ tuyển, xét tuyển
+                    </p>
+                </div>
+            </div>
+            <div class="story">
+                <div style="padding: 12px 8px; width: 150px;" class="img">
+                    <img src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/kienlx/1419232613225_nganhkhxhnhanvan1.jpg?w=130" alt="">
+                </div>
+                <div style="padding-left: 12px; padding-top: 15px; padding-right: 12px;" class="abctitle">
+                    <a style="font-size: 14px; color: #333; text-decoration: none; font-weight: bold    ;" href="">Chọn nghề đam mê hay chọn nghề lương cao?</a></h1>
+                    <div class="time">                    
+                        <span style="font-size: 11px">16/1/2020</span>
+                    </div>
+                    <p style="font-size: 14px;">Một băn khoăn của nhiều bạn trẻ hiện nay là chọn nghề mình yêu thích nhưng thu nhập thấp, hay chọn nghề mình không thích nhưng thu nhập cao? Nếu mục tiêu của bạn là ngay bây giờ có càng nhiều tiền càng tốt, thì bạn đã biết câu trả lời là gì…
+                    </p>
+                </div>
+            </div>
+
+          </div>
+          
+               
+                
+          </div>
+
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 mt-3">
+            <div class="div">
+              <p class="header-right">Sáng kiến kinh nghiệm</p>
+              <div class="display-flex">
+                <img
+                  src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/kienlx/a.jpg?w=140"
+                  alt=""
+                />
+                <p>Phương pháp giải bài tập vật lý hạt nhân</p>
+              </div>
+              <div class="display-flex">
+                <img
+                  src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/kienlx/a.jpg?w=140"
+                  alt=""
+                />
+                <p>Sóng dừng</p>
+              </div>
+              <div class="display-flex">
+                <img
+                  src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/kienlx/a.jpg?w=140"
+                  alt=""
+                />
+                <p>Phương pháp giải bài tập vật lý hạt nhân</p>
+              </div>
+              <div class="display-flex">
+                <img
+                  src="https://fn.vinhphuc.edu.vn/UploadImages/thptlexoay/kienlx/a.jpg?w=140"
+                  alt=""
+                />
+                <p>Phân loại 1 số công việc</p>
+              </div>
+            </div>
+            <div class="div">
+              <p class="header-right">Phần mềm</p>
+              <div class="display-flex">
+                <img
+                  src="https://fn.vinhphuc.edu.vn//UploadImages/Advertising/hungyen/Thu%20dien%20tu.png"
+                  alt=""
+                />
+                
+              </div>
+              <div class="display-flex">
+                <img
+                  src="https://thptlexoay.vinhphuc.edu.vn/App_Themes/Default/Image/Bannerthuviendientu.jpg"
+                  alt=""
+                />
+               
+              </div>
+              <div class="display-flex">
+                <img
+                  src="https://fn.vinhphuc.edu.vn/UploadImages/Advertising/gdbn/eschool.png"
+                  alt=""
+                />
+              
+              </div>
+            </div>
+            <div class="div">
+              <p class="header-right">TIN VIDEO</p>
+              <video
+                poster="/App_Themes/Default/Image/video_01.png"
+                width="100%"
+                height="60%"
+                src="https://fn.vinhphuc.edu.vn/media\thptlexoay/2018_2/le_xoay_282201810.mp4"
+                controls=""
+              ></video>
+            </div>
+            <div class="div">
+              <p class="header-right">BẢN ĐỒ VỊ TRÍ</p>
+              <img width="100%" alt="" src="https://thptlexoay.vinhphuc.edu.vn/App_Themes/Default/Image/maps.png">
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item active"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <footer>
+      <div class="menu">
+        <div class="container d-flex align-items-center">
+          <div class="menu">
+            <ul
+              class="menu-list d-flex justify-content-evenly alignsalign-items-center m-0 p-0"
+            >
+              <li class="menu-list-item d-block py-2 active-chon">
+                <a
+                  href="index.html"
+                  class="menu-link text-decoration-none text-white"
+                >
+                  <i class="fa-solid fa-house text-white"></i
+                ></a>
+              </li>
+              <li class="menu-list-item d-block py-2">
+                <a
+                  href="./gioithieu.html"
+                  class="menu-link text-decoration-none text-white"
+                  >GIỚI THIỆU</a
+                >
+              </li>
+              <li class="menu-list-item d-block py-2">
+                <a
+                  href="tracuu.html"
+                  class="menu-link text-decoration-none text-white"
+                  >TRA CỨU ĐIỂM THI</a
+                >
+              </li>
+              <li class="menu-list-item d-block py-2">
+                <a
+                  href="./tintuc.html"
+                  class="menu-link text-decoration-none text-white"
+                  >TIN TUC</a
+                >
+              </li>
+              <li class="menu-list-item d-block py-2">
+                <a
+                  href="./tainguyen.html"
+                  class="menu-link text-decoration-none text-white"
+                  >TÀI NGUYÊN</a
+                >
+              </li>
+              <li class="menu-list-item d-block py-2">
+                <a
+                  href="./thongbao-vanban.html"
+                  class="menu-link text-decoration-none text-white"
+                  >THÔNG BÁO - VĂN BẢN</a
+                >
+              </li>
+              <li class="menu-list-item d-block py-2">
+                <a
+                  href="gochuongnghiep.html"
+                  class="menu-link text-decoration-none text-white"
+                  >GÓC HƯỚNG NGHIỆP</a
+                >
+              </li>
+              <li class="menu-list-item d-block py-2">
+                <a
+                  href="lienhe"
+                  class="menu-link text-decoration-none text-white"
+                  >LIÊN HỆ</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-around">
+        <img
+          style="object-fit: cover"
+          src="https://fn.vinhphuc.edu.vn/UploadImages/Config/thptlexoay/logofooter.png"
+          alt=""
+        />
+        <div class="div border-start px-5">
+          <h5 style="color: #2980b9" class="text-center mt-3">
+            TRƯỜNG THPT LÊ XOAY
+          </h5>
+          <p style="color: #e74c3c" class="text-center">
+            Địa chỉ: Khu Hồ Xuân Hương, tt. Vĩnh Tường, Vĩnh Tường, Vĩnh Phúc
+          </p>
+          <p class="text-center">
+            Điện thoại: 0211 3839 489 - Email: c3lexoay@vinhphuc.edu.vn
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+    <script type="module">
+      import Swiper from "https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js";
+
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        },
+        breakpoints: {
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          // when window width is >= 480px
+          480: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+          // when window width is >= 640px
+          640: {
+            slidesPerView: 4,
+            spaceBetween: 10,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
